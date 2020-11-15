@@ -5,11 +5,54 @@
 {% block last_nav %} Begin {% endblock %}
 
 {% block main %}
+    <div id="jumbo" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Welcome to Project: DataPath!</h1>
+                <p class="lead">Experience the forefront of mediocre data manipulation technology
+                    with our <em>patented</em> algorithmic approaches to sorting, path-finding, and more!</p>
+            </div>
+    </div>
+
     <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Welcome</h1>
+        <div id="about_box" class="row">
+            <div id="about_blurb" class="col">
+                <h2>What is Project: DataPath?</h2>
+                <p>Our data. Your decisions. Project: DataPath is a way for users to test
+                    and interact with various data manipulation algorithms.
+                    Our massive, randomly generated database is at your disposal
+                    as you customize the way you interact with the data housed there.
+                    To learn more, check out the cards below!</p>
+            </div>
+
+            <div id ="img_box" class="col">
+                <img src="static/img/stock_image.jpg" alt="stock_image">
             </div>
         </div>
+
+        <div id="site_links_box" class="row">
+            <div id="features_box" class="col">
+                <h3>Explore</h3>
+                <p>Check out our ever-changing list of supported
+                    functionality for <em>our</em> data, <em>your</em> way.</p>
+                <div id="explore_button" class="row">
+                    <a class="btn btn-secondary mr-auto" href="/current_features/" role="button">View Details >></a>
+                </div>
+            </div>
+
+            <div id="get_started_box" class="col">
+                <h3>Embark</h3>
+                <p>Experience the <em>data revolution.</em></p><br>
+                <div id="embark_button" class ="row">
+                    <a class="btn btn-secondary mr-auto" href="/data_customization/" role="button">View Details >></a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="running_footer" class="row">
+            <div class="col footer_text"><p>Author: Daniel Walker</p></div>
+            <div class="col footer_text"><p>dan.lawrence.walker@gmail.com</p></div>
+            <div class="col footer_text"><p>https://github.com/dan-walker-cs</p></div>
+        </div>
+
     </div>
 {% endblock %}

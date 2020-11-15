@@ -1,0 +1,53 @@
+div#about_box {
+    padding: 20px 20px 100px 20px;
+    column-gap: 0px;
+}
+
+div#about_blurb {
+    border-style: groove;
+    border-color: #708090;
+}
+
+div#about_blurb h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+div#about_blurb p {
+    text-align: center;
+    padding-top: 100px;
+}
+
+div#img_box {
+    width: 100px;
+}
+
+div#site_links_box {
+    padding: 20px 20px 100px 20px;
+    column-gap: 100px;
+}
+
+div#features_box {
+    border-style: groove;
+    border-color: #708090;
+}
+
+div#explore_button {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+div#get_started_box {
+    border-style: groove;
+    border-color: #708090;
+}
+
+div#embark_button {
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+div#running_footer {
+    bottom: 0;
+    text-align: center;
+}
