@@ -1,3 +1,5 @@
+![](/app/static/img/home_page_preview.png)
+
 Project Name: Project DataPath
 
 Description: The plan for this project is to use Python and Flask to create an interactive data manipulation website.
@@ -9,8 +11,9 @@ Description: The plan for this project is to use Python and Flask to create an i
   - The time and space complexity of the operation performed will be displayed to the user.
 
 
-Current Support:
+Current Support / Progress Log:
 - Application powered by Flask
 - Web page display
-- Bootstrapped CSS
+- Bootstrap, as well as custom HTML and CSS
 - Functioning links for the navigation bar
+- Completed look and functionality for home page
