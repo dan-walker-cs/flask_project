@@ -1,10 +1,12 @@
 /* Home Page */
 div#about_box {
+    width: 100%;
     padding: 20px 20px 100px 20px;
     column-gap: 0px;
 }
 
 div#about_blurb {
+    width: 50%;
     border-style: groove;
     border-color: #708090;
 }
@@ -20,7 +22,7 @@ div#about_blurb p {
 }
 
 div#img_box {
-    width: 100px;
+    width: 50%;
 }
 
 div#site_links_box {
@@ -54,17 +56,13 @@ div#embark_button {
     margin-top:50px;
 }
 
-div#functionality_box {
+/* -------------------------------------------- */
 
+/* Customization Page */
+.customization_hr {
+    border-top: 1px solid #708090;
 }
 
-div#structures_box {
-
-}
-
-div#algorithms_box {
-
-}
 /* -------------------------------------------- */
 
 /* template */

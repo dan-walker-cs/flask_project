@@ -5,15 +5,118 @@
 {% block last_nav %} Refresh {% endblock %}
 
 {% block main %}
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Begin your Data Customization!</h1>
+    <div id="jumbo" class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Customize your Data</h1>
+                <p class="lead">Select values from the dropdown menus on the right for each field.
+                    Watch a live preview come to life below!</p>
             </div>
-        </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid mb-5">
+        <div class="row h-100">
+            <div class="col-8">
+                <table class="table table-striped">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">temp1</th>
+                            <th scope="col">temp2</th>
+                            <th scope="col">temp3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>test_data</td>
+                            <td>test_data</td>
+                            <td>test_data</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>test_data</td>
+                            <td>test_data</td>
+                            <td>test_data</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>test_data</td>
+                            <td>test_data</td>
+                            <td>test_data</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-4">
+                <div id="datatype_selection" class="container">
+                    <div class="row-2">
+                        <p>Select the datatype your model will generate: </p>
+                    </div>
+                    <div class="row-2">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary dropdown-toggle" href="#"
+                               role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
+                                Datatype
+                            </a>
 
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">Integer</a>
+                                <a class="dropdown-item" href="#">Floating Point</a>
+                                <a class="dropdown-item" href="#">String</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="customization_hr" />
+
+                <div id="size_selection" class="container">
+                    <div class="row-2">
+                        <p>Select the amount of data to generate: </p>
+                    </div>
+                    <div class="row-2">
+                        <div class="row-2">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary dropdown-toggle" href="#"
+                               role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
+                                Model Size
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">10</a>
+                                <a class="dropdown-item" href="#">100</a>
+                                <a class="dropdown-item" href="#">1000</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <hr class="customization_hr" />
+
+                <div id="datastructure_selection" class="container">
+                    <div class="row-2">
+                        <p>Finally, select what kind of structure will contain your model within the program: </p>
+                    </div>
+                    <div class="row-2">
+                        <div class="row-2">
+                        <div class="dropdown show">
+                            <a class="btn btn-secondary dropdown-toggle" href="#"
+                               role="button" id="dropdownMenuLink" data-toggle="dropdown"
+                               aria-haspopup="true" aria-expanded="false">
+                                Data Structure
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">List</a>
+                                <a class="dropdown-item" href="#">Dictionary</a>
+                                <a class="dropdown-item" href="#">Matrix</a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
