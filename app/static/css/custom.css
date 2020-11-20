@@ -1,3 +1,4 @@
+/* Home Page */
 div#about_box {
     padding: 20px 20px 100px 20px;
     column-gap: 0px;
@@ -46,7 +47,27 @@ div#embark_button {
     padding-bottom: 10px;
     padding-left: 20px;
 }
+/* -------------------------------------------- */
 
+/* Features Page */
+.top-buffer {
+    margin-top:50px;
+}
+
+div#functionality_box {
+
+}
+
+div#structures_box {
+
+}
+
+div#algorithms_box {
+
+}
+/* -------------------------------------------- */
+
+/* template */
 div#running_footer {
     bottom: 0;
     text-align: center;
